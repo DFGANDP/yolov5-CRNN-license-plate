@@ -5,6 +5,11 @@
 
 # Description
 
+YOLOv5 model is trained on preprocessed chinese dataset CCPD
+CRNN model is trained on preprocessed AUTO.RIA Numberplate OCR Datasets
+
+For more info look at: yolov5-CRNN-license-plate/crnn_data/CRNN_TRAIN.ipynb
+
 ![Pipeline](./crnn_data/How_it_works.jpg)
 
 ## Requirements
@@ -33,7 +38,8 @@ python image_process.py --image "car.jpg" --regfile "registrations.txt"
 ## References
 1. https://arxiv.org/abs/1507.05717
 2. https://github.com/abhishekkrthakur/captcha-recognition-pytorch
-
+3. https://github.com/detectRecog/CCPD
+4. https://github.com/ria-com/nomeroff-net
 
 <div align="center">
 <p>
