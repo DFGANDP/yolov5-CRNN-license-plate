@@ -1,4 +1,39 @@
-Fork test
+# CONNECT WITCH CRNN
+![BANNER](./crnn_data/LICENSE_PLATE_READER.png)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/DFGANDP/yolov5-CRNN-license-plate)  ![GitHub](https://img.shields.io/github/license/DFGANDP/yolov5-CRNN-license-plate)
+
+# Description
+
+![Pipeline](./crnn_data/How_it_works.jpg)
+
+## Requirements
+
+```bash
+1. numpy
+2. sklearn
+3. torch
+4. opencv
+```
+
+## How to train Your own CRNN
+* Check train_crnn file in crnn_data section LAST CRNN and below
+
+## Test usage
+
+```bash
+python image_process.py --image "car.jpg" --regfile "registrations.txt"
+```
+
+## TODO:
+* Videos/live
+* BK-Tree search
+* Connect W&B with CRNN training
+
+## References
+1. https://arxiv.org/abs/1507.05717
+2. https://github.com/abhishekkrthakur/captcha-recognition-pytorch
+
 
 <div align="center">
 <p>
@@ -301,40 +336,3 @@ professional support requests please visit [https://ultralytics.com/contact](htt
 
 [assets]: https://github.com/ultralytics/yolov5/releases
 [tta]: https://github.com/ultralytics/yolov5/issues/303
-
-
-# CONNECT WITCH CRNN
-![BANNER](./crnn_data/LICENSE_PLATE_READER.png)
-
-![GitHub last commit](https://img.shields.io/github/last-commit/DFGANDP/yolov5-CRNN-license-plate)  ![GitHub](https://img.shields.io/github/license/DFGANDP/yolov5-CRNN-license-plate)
-
-# Description
-
-![Pipeline](./crnn_data/How_it_works.jpg)
-
-## Requirements
-
-```bash
-1. numpy
-2. sklearn
-3. torch
-4. opencv
-```
-
-## How to train Your own CRNN
-* Check train_crnn file in crnn_data section LAST CRNN and below
-
-## Test usage
-
-```bash
-python image_process.py --image "car.jpg" --regfile "registrations.txt"
-```
-
-## TODO:
-* Videos/live
-* BK-Tree search
-* Connect W&B with CRNN training
-
-## References
-1. https://arxiv.org/abs/1507.05717
-2. https://github.com/abhishekkrthakur/captcha-recognition-pytorch
