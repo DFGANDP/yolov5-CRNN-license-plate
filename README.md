@@ -4,9 +4,10 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/DFGANDP/yolov5-CRNN-license-plate)  ![GitHub](https://img.shields.io/github/license/DFGANDP/yolov5-CRNN-license-plate)
 
 # Description
-
+```bash
 YOLOv5 model is trained on preprocessed chinese dataset CCPD
 CRNN model is trained on preprocessed AUTO.RIA Numberplate OCR Datasets
+```
 
 For more info look at: yolov5-CRNN-license-plate/crnn_data/CRNN_TRAIN.ipynb
 
