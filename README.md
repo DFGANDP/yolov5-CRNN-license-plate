@@ -322,7 +322,7 @@ professional support requests please visit [https://ultralytics.com/contact](htt
 ```
 
 ## How to train Your own CRNN
-* Check train_crnn file in crnn_data
+* Check train_crnn file in crnn_data section LAST CRNN and below
 
 ## Test usage
 
