@@ -7,9 +7,11 @@
 ```bash
 YOLOv5 model is trained on preprocessed chinese dataset CCPD
 CRNN model is trained on preprocessed AUTO.RIA Numberplate OCR Datasets
-```
 
 For more info look at: yolov5-CRNN-license-plate/crnn_data/CRNN_TRAIN.ipynb
+```
+
+
 
 ![Pipeline](./crnn_data/How_it_works.jpg)
 
