@@ -8,7 +8,7 @@ Program szczytuje rejestracje
 * Jesli jest wystarczajaco duza zeby odczytac rejestracje (optymalizacja)
 Kazda szczytana przerzuca przez RNN
 Dekoduje wyniki
-Porownuje z baza danych rejestracji (np nieoznakowanych policynych) 
+Porownuje z baza danych rejestracji (np na parkingu galerii
 (o ile znakow treshold ustawic 'w terenie')
 Jesli jest podobna o 1 znak albo 2 ALERT (czerwona)
 Jesli wiecej np 3 lub 4 Pomaranczowa dioda
